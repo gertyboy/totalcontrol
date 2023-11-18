@@ -1,0 +1,25 @@
+body{
+    display: inline-block;
+}
+
+div{
+    height: 75px;
+    width: 1220px;
+    display: inline-flex;
+    border-width: 1px;
+    border-color:white;
+    margin: -3.5px;
+}
+
+span{
+    width: 75px
+}
+
+.solarsystemblock{
+    background-color: black;
+    border: 0.5px solid white;
+}
+
+.sun{
+    background-color: yellow;
+}
