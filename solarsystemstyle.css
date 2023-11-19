@@ -1,25 +1,219 @@
-body{
+body {
     display: inline-block;
 }
 
-div{
+div {
     height: 75px;
-    width: 1220px;
+    width: 1430px;
     display: inline-flex;
     border-width: 1px;
-    border-color:white;
+    border-color: white;
     margin: -3.5px;
 }
 
-span{
+span {
     width: 75px
 }
 
-.solarsystemblock{
+.solarsystemblock {
     background-color: black;
     border: 0.5px solid white;
 }
 
-.sun{
+.sun {
     background-color: yellow;
+}
+
+.iceplanet {
+    background-color: lightskyblue;
+}
+
+.goldplanet {
+    background-color: goldenrod;
+}
+
+.cityplanet {
+    background-color: rgb(200, 214, 129);
+}
+
+.natureplanet {
+    background-color: rgb(38, 222, 44);
+}
+
+.ringplanet {
+    background-color: bisque;
+}
+
+.bigplanet {
+    background-color: saddlebrown;
+}
+
+.rockplanet {
+    background-color: gray;
+}
+
+.volcanoplanet {
+    background-color: rgb(178, 65, 34);
+}
+
+.waterplanet {
+    background-color: rgb(23, 23, 239);
+}
+
+.moonplanet {
+    background-color: aliceblue
+}
+
+.friendbordertop {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderbottom {
+    box-shadow: 0px -5px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderleft {
+    box-shadow: 5px 0px 5px -2px rgb(0, 0, 255) inset;   
+}
+
+.friendborderright {
+    box-shadow: -5px 0px 5px -2px rgb(0, 0, 255) inset;   
+}
+
+.friendbordertopbottom {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    0px -5px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendbordertopleft {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendbordertopright {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    -5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderbottomleft {
+    box-shadow: 0px -5px 5px -2px rgb(0, 0, 255) inset,
+    5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderbottomright {
+    box-shadow: 0px -5px 5px -2px rgb(0, 0, 255) inset,
+    -5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderleftright {
+    box-shadow: 5px 0px 5px -2px rgb(0, 0, 255) inset,
+    -5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendbordertopbottomright {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    -5px 0px 5px -2px rgb(0, 0, 255) inset,
+    0px -5px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendbordertopbottomleft {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    5px 0px 5px -2px rgb(0, 0, 255) inset,
+    0px -5px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendbordertopleftright {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    5px 0px 5px -2px rgb(0, 0, 255) inset,
+    -5px 0x 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderbottomleftright {
+    box-shadow: 0px 5px 5px -2px rgb(0, 0, 255) inset, 
+    5px 0px 5px -2px rgb(0, 0, 255) inset,
+    5px 0x 5px -2px rgb(0, 0, 255) inset;
+}
+
+.friendborderfoursides{
+    box-shadow: 0px -5px 5px -2px rgb(0, 0, 255) inset,
+    5px 0px 5px -2px rgb(0, 0, 255) inset,
+    0px 5px 5px -2px rgb(0, 0, 255) inset,
+    -5px 0px 5px -2px rgb(0, 0, 255) inset;
+}
+
+.enemybordertop {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderbottom {
+    box-shadow: 0px -5px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderleft {
+    box-shadow: 5px 0px 5px -2px rgb(255, 0, 0) inset;   
+}
+
+.enemyborderright {
+    box-shadow: -5px 0px 5px -2px rgb(255, 0, 0) inset;   
+}
+
+.enemybordertopbottom {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    0px -5px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemybordertopleft {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    5px 0px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemybordertopright {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    -5px 0px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderbottomleft {
+    box-shadow: 0px -5px 5px -2px rgb(255, 0, 0) inset,
+    5px 0px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderbottomright {
+    box-shadow: 0px -5px 5px -2px rgb(255, 0, 0) inset,
+    -5px 0px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderleftright {
+    box-shadow: 5px 0px 5px -2px rgb(255, 0, 0) inset,
+    -5px 0px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemybordertopbottomright {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    -5px 0px 5px -2px rgb(255, 0, 0) inset,
+    0px -5px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemybordertopbottomleft {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    5px 0px 5px -2px rgb(255, 0, 0) inset,
+    0px -5px 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemybordertopleftright {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    5px 0px 5px -2px rgb(255, 0, 0) inset,
+    -5px 0x 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyborderbottomleftright {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    5px 0px 5px -2px rgb(255, 0, 0) inset,
+    -5px 0x 5px -2px rgb(255, 0, 0) inset;
+}
+
+.enemyfourcorners {
+    box-shadow: 0px 5px 5px -2px rgb(255, 0, 0) inset, 
+    5px 0px 5px -2px rgb(255, 0, 0) inset,
+    -5px 0x 5px -2px rgb(255, 0, 0) inset,
+    0px -5px 5px -2px rgb(255, 0, 0) inset;
 }
